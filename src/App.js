@@ -4,6 +4,8 @@ import VideoList from './components/VideoList';
 import VideoDetail from './components/VideoDetail';
 import useVideos from './hooks/useVideos';
 import { ChakraProvider, Flex, Input, Box, VStack, HStack, Text } from '@chakra-ui/react';
+import './App.css';
+
 
 const App = () => {
   const [selectedVideo, setSelectedVideo] = useState(null);
@@ -41,7 +43,7 @@ const App = () => {
 
           {/* Footer */}
           <Box mt={8}>
-            <Text fontSize="sm" color="gray.500">
+            <Text fontSize="sm" mt={280} color="gray.500">
               © 2024 Qiugu He. Powered by React and Youtube API
             </Text>
           </Box>
