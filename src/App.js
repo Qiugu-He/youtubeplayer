@@ -9,7 +9,7 @@ import './App.css';
 
 const App = () => {
   const [selectedVideo, setSelectedVideo] = useState(null);
-  const [videos, search] = useVideos('CUTEST Puppies');
+  const [videos, search] = useVideos('Gibili');
 
   useEffect(() => {
     setSelectedVideo(videos[0]);
